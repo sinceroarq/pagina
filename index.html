@@ -15,9 +15,11 @@
     .link {
         display: flex;
         /* width: auto; */
-        vertical-align: middle;
+        /* vertical-align: middle; */
         margin-left: auto;
         margin-right: auto;
+        justify-content: center;
+        text-align: center;
     }
 
     .center {
@@ -33,6 +35,9 @@
     a:active {
         text-decoration: none;
         color: inherit;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
     }
 </style>
 
@@ -47,13 +52,17 @@
     <div class="link">
         <a href="mailto://sincero.arq@gmail.com">
             <img src="img/envelope-solid.svg" width="5%" />
-            info@sincero.com.ar
+            <p>
+                info@sincero.com.ar
+            </p>
         </a>
     </div>
     <div class="link">
         <a href="https://www.instagram.com/sincero.arq/">
             <img src="img/instagram.svg" width="5%" />
-            @sincero.arq
+            <p>
+                sincero.arq
+            </p>
         </a>
     </div>
 
